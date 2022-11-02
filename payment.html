@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- google fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+  <!-- iconscout css -->
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+  <link rel="stylesheet" href="css/nav_style.css">
+  <link rel="stylesheet" href="css/payment_style.css">
+  <title>myGym</title>
+</head>
+
+<body>
+  <nav>
+    <input id="nav-toggle" type="checkbox">
+    <div class="logo"><i>my<span class=".gym-text"><strong>Gym</strong></span></i></div>
+    <ul class="links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="contact_us.html">Contact Us</a></li>
+      <li><a href="about-us.html">About Us</a></li>
+    </ul>
+    <label for="nav-toggle" class="icon-burger">
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+    </label>
+  </nav>
+  <section>
+    <div class="payment-container">
+      <div class="forms">
+        <div class="form payment">
+          <span class="title">Payment Details
+            <span class="card-icons">
+              <i class="uil uil-card-atm"></i>
+              <i class="uil uil-credit-card"></i>
+            </span>
+          </span>
+          <form name="paymentForm" action="#" class="form-fields">
+            <div class="input-field">
+              <input name="cardNumber" type="text" placeholder="Card Number" required>
+              <i class="uil uil-transaction"></i>
+            </div>
+            <div class="card-info">
+              <div class="input-field">
+                <input name="expirationDate" type="text" placeholder="MM/YY" required>
+                <i class="uil uil-calendar-alt"></i>
+              </div>
+              <div class="input-field">
+                <input name="cvCode" type="text" placeholder="CV Code" required>
+                <i class="uil uil-key-skeleton"></i>
+              </div>
+            </div>
+            <div class="input-field button">
+              <input type="button" onclick="return handlePayment(event)" value="Start subscription">
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <p>&copy; Copyright 2022. All Rights Reserved</p>
+    <p> <a href="mailto:forwardfitness@club.net">forwardfitness@club.net</a> </p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>

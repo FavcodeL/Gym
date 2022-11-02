@@ -1,0 +1,47 @@
+/* Google font import */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+	font-family: 'Poppins', sans-serif;
+}
+
+#hero img {
+	width: 100%;
+}
+
+main {
+	background-color: #fff;
+	padding: 2%;
+	font-size: 1.15em;
+	font-family: 'Roboto Slab', serif;
+}
+
+.tel-link {
+	background-color: #000000;
+	padding: 2%;
+	margin: 0 auto;
+	width: 80%;
+	text-align: center;
+	border-radius: 5px;
+}
+
+.tel-link a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 1.5em;
+	display: block;
+}
+
+.hours {
+	margin-left: 10%;
+}
+
+.action {
+	font-size: 1.35em;
+	color: #666600;
+	font-weight: bold;
+	text-shadow: 5px 5px 8px #ccc;
+	/* EXTRA */
+}
+
+@media screen and (max-width: 768px) {}

@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Quicksand', sans-serif;
+}
+
+main {
+  background-color: #fff;
+  padding: 2%;
+  font-size: 1.15em;
+  font-family: 'Roboto Slab', serif;
+}
+
+img  {
+	max-width: 100%;
+	display: block;
+}
+
+#weights,
+#cardio,
+#training {
+  margin: 0 2%;
+  width: 29%;
+  float: left;
+  margin: 0 2%;
+}
+
+#exercises {
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  background: linear-gradient(to right,  #ccc, #fff); /* EXTRA */
+  background-color: #f2f2f2;
+  padding: 1% 2%;
+}
+
+#exercises dt {
+  font-weight: bold;
+}
+
+#exercises dd {
+  padding: 0.5% 1% 2% 0;
+}
