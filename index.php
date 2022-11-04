@@ -1,3 +1,6 @@
+<?php
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -25,7 +28,7 @@
     <input id="nav-toggle" type="checkbox">
     <div class="logo"><i>my<span class=".gym-text"><strong>Gym</strong></span></i></div>
     <ul class="links">
-      <li><a href="index.html">Home</a></li>
+      <li><a href="index.php">Home</a></li>
       <li><a href="contact_us.html">Contact Us</a></li>
       <li><a href="about-us.html">About Us</a></li>
       <li><a href="login-page.php">Login</a></li>
